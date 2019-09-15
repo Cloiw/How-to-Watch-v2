@@ -15,12 +15,11 @@ class App extends React.Component {
         <MainNavbar />
         <Switch>
           <Route
-            exact
-            path="/"
+            exact path="/"
             component={Home}
           />
           <Route
-            path="/sagas"
+            exact path="/sagas"
             component={Sagas}
           />
         </Switch>

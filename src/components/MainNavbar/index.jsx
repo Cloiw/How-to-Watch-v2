@@ -8,8 +8,8 @@ class MainNavbar extends React.Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand>
-          <IndexLinkContainer to="/">
+        <LinkContainer to="/">
+          <Nav.Link eventKey="1">
             <img
               src={Logo}
               width="auto"
@@ -17,11 +17,11 @@ class MainNavbar extends React.Component {
               className="d-inline-block align-top"
               alt="Logo"
             />
-          </IndexLinkContainer>
-        </Navbar.Brand>
+          </Nav.Link>
+        </LinkContainer>
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav activeKey="" className="mr-auto">
             <IndexLinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
             </IndexLinkContainer>
