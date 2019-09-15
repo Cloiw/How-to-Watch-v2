@@ -1,8 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Home from "../Home";
-import Sagas from "../Sagas";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Home from '../Home';
+import Sagas from '../Sagas';
 import MainNavbar from '../../components/MainNavbar';
 
 
@@ -10,13 +12,14 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <MainNavbar/>
+        <MainNavbar />
         <Switch>
           <Route
-            exact path="/"
+            exact
+            path="/"
             component={Home}
           />
-           <Route
+          <Route
             path="/sagas"
             component={Sagas}
           />
