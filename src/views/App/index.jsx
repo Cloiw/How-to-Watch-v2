@@ -2,21 +2,23 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "../Home";
-import Saw from "../Saw";
+import Sagas from "../Sagas";
+import MainNavbar from '../../components/MainNavbar';
 
 
 class App extends React.Component {
   render() {
     return (
       <Router>
+        <MainNavbar/>
         <Switch>
           <Route
-            path="/"
+            exact path="/"
             component={Home}
           />
            <Route
-            path="/Saw"
-            component={Saw}
+            path="/sagas"
+            component={Sagas}
           />
         </Switch>
       </Router>
