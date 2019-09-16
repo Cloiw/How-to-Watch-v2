@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-nav{
+nav {
   font-family: 'Anaheim', sans-serif;
   font-weight: bolder;
   font-size: 20px;
@@ -13,7 +13,7 @@ nav{
   margin-bottom: 30px;
 }
 
-.nav-item > .nav-link.active{
+.nav-item > .nav-link.active {
   border: 1px solid #FFDC74;
   border-radius: 8px;
   color:#FFDC74 !important;
@@ -36,7 +36,6 @@ a.nav-link:hover {
   color: white !important;
 }
 
-.show > div > .nav-item:hover{
+.show > div > .nav-item:hover {
   background-color: black !important;
 }
-

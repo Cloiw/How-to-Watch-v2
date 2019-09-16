@@ -5,7 +5,6 @@ import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 import Logo from '../../img/logo_crop.png';
 import './MainNavbar.css';
 
-
 const MainNavbar = () => (
   <Navbar collapseOnSelect expand="lg" variant="dark">
     <LinkContainer to="/">
