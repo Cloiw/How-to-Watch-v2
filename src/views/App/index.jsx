@@ -8,24 +8,22 @@ import Sagas from '../Sagas';
 import MainNavbar from '../../components/MainNavbar';
 
 
-class App extends React.Component {
-  render() {
-    return (
-      <Router>
-        <MainNavbar />
-        <Switch>
-          <Route
-            exact path="/"
-            component={Home}
-          />
-          <Route
-            exact path="/sagas"
-            component={Sagas}
-          />
-        </Switch>
-      </Router>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <MainNavbar />
+    <Switch>
+      <Route
+        exact
+        path="/"
+        component={Home}
+      />
+      <Route
+        exact
+        path="/sagas"
+        component={Sagas}
+      />
+    </Switch>
+  </Router>
+);
 
 export default App;

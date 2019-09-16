@@ -8,5 +8,8 @@ module.exports = {
         "react"
       ],
       "parser": "babel-eslint",
+      "rules":{
+        "max-len": "off"
+      }
     }
     
