@@ -9,14 +9,14 @@ nav{
   font-weight: bolder;
   font-size: 20px;
   background-color: black;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #712B7C;
   margin-bottom: 30px;
 }
 
 .nav-item > .nav-link.active{
-  background-color: #712B7C;
+  border: 1px solid #FFDC74;
   border-radius: 8px;
-  color: #FFDC74 !important;
+  color:#FFDC74 !important;
 }
 
 .nav-justified .nav-item {
@@ -28,7 +28,7 @@ nav{
 }
 
 .nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.288);
+  background-color: rgba(195, 48, 214, 0.288);
   border-radius: 8px;
 }
 
