@@ -9,7 +9,10 @@ module.exports = {
       ],
       "parser": "babel-eslint",
       "rules":{
-        "max-len": "off"
+        "max-len": "off",
+        "import/no-dynamic-require": "off",
+        "global-require": "off",
+        "react/destructuring-assignment": "off"
       }
     }
     

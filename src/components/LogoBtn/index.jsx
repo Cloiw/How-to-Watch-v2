@@ -1,12 +1,18 @@
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
+import PropTypes from 'prop-types';
 
-class LogoBtn extends React.Component {
-  render() {
-    return (
-      <div>{this.props.name}</div>
-    );
-  }
-}
+const LogoBtn = ({ name }) => (
+  typeof name === 'string'
+    ? (
+      <div>
+        <img alt={name} src={require(`../../img/logos/${name}_img.png`)} />
+      </div>
+    )
+    : null
+);
+
+LogoBtn.propTypes = {
+  name: PropTypes.string.isRequired,
+};
 
 export default LogoBtn;

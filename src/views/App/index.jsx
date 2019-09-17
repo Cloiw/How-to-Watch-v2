@@ -7,24 +7,36 @@ import Home from '../Home';
 import Sagas from '../Sagas';
 import TimeLines from '../TimeLines';
 import MainNavbar from '../../components/MainNavbar';
+import ScrollToTop from '../../components/ScrollToTop';
+import NoMatchPage from '../NoMatchPage';
 
 
 const App = () => (
+
   <Router>
-    <MainNavbar />
-    <Switch>
-      <Route
-        exact
-        path="/"
-        component={Home}
-      />
-      <Route
-        exact
-        path="/sagas"
-        component={Sagas}
-      />
-      <Route exact path="/sagas/:sagasId" component={TimeLines} />
-    </Switch>
+    <ScrollToTop>
+      <MainNavbar />
+      <Switch>
+        <Route
+          exact
+          path="/"
+          component={Home}
+        />
+        <Route
+          exact
+          path="/sagas"
+          component={Sagas}
+        />
+        <Route
+          exact
+          path="/sagas/:sagasId"
+          component={TimeLines}
+        />
+        <Route
+          component={NoMatchPage}
+        />
+      </Switch>
+    </ScrollToTop>
   </Router>
 );
 
