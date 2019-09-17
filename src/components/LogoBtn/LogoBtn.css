@@ -1,0 +1,11 @@
+.img-logo {
+  width: 50%;
+}
+
+.row-sagas > a {
+  text-align: center;
+  border: 2px indigo solid;
+}
+.row-sagas {
+  justify-content: center;
+}

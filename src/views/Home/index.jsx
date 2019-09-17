@@ -15,10 +15,10 @@ const Home = () => (
     <Container fluid>
       <section>
         <Row bsPrefix="row row-description">
-          <Col md={5}>
+          <Col xs={12} md={5}>
             <img alt="Movie Sagas" className="img-description" src={imgDescription} />
           </Col>
-          <Col md={7}>
+          <Col xs={12} md={7}>
             <p className="home-description">
               This website helps you to watch your favorite movie sagas in the order that you want.
               <br />
