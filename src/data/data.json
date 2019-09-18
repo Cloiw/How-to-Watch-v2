@@ -3,8 +3,7 @@
     {"chrono": ["Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem", "Prometheus", "Alien:%20Covenant",
         "Alien", "Aliens", "Alien³", "Alien:%20Resurrection"],
     "release": ["Alien", "Aliens", "Alien³", "Alien:%20Resurrection", "Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem",
-        "Prometheus", "Alien:%20Covenant"],
-    "img": "alien_img.png"
+        "Prometheus", "Alien:%20Covenant"]
     }
   ],
   "harry_potter":[
@@ -19,9 +18,9 @@
     }
   ],
   "the_conjuring":[
-    {"chrono": ["The%20Nun", "Annabelle:%20Creation", "Anabelle", "The%20Conjuring", "The%20Curse%20of%20La%20Llorona",
+    {"chrono": ["The%20Nun", "Annabelle:%20Creation", "Annabelle", "The%20Conjuring", "The%20Curse%20of%20La%20Llorona",
       "The%20Conjuring%202"],
-    "release": ["The%20Conjuring", "Anabelle", "The%20Conjuring%202", "Annabelle:%20Creation", "The%20Nun",
+    "release": ["The%20Conjuring", "Annabelle", "The%20Conjuring%202", "Annabelle:%20Creation", "The%20Nun",
       "The%20Curse%20of%20La%20Llorona"]
     }
   ]
