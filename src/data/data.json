@@ -1,13 +1,12 @@
 {
-  "alien":[
-    {"chrono": ["Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem", "Prometheus", "Alien:%20Covenant",
+  "alien":{
+    "chrono": ["Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem", "Prometheus", "Alien:%20Covenant",
         "Alien", "Aliens", "Alien³", "Alien:%20Resurrection"],
     "release": ["Alien", "Aliens", "Alien³", "Alien:%20Resurrection", "Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem",
         "Prometheus", "Alien:%20Covenant"]
-    }
-  ],
-  "harry_potter":[
-    {"chrono": ["Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone", "Harry%20Potter%20and%20the%20Chamber%20of%20Secrets",
+  },
+  "harry_potter":{
+    "chrono": ["Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone", "Harry%20Potter%20and%20the%20Chamber%20of%20Secrets",
       "Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban", "Harry%20Potter%20and%20the%20Goblet%20of%20Fire", 
       "Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix", "Harry Potter and the Half-Blood Prince", 
       "Harry Potter and the Deathly Hallows: Part 1", "Harry%20Potter%20and%20the%20Deathly%20Hallows:%20Part%202"],
@@ -15,13 +14,11 @@
       "Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban", "Harry%20Potter%20and%20the%20Goblet%20of%20Fire", 
       "Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix", "Harry Potter and the Half-Blood Prince", 
       "Harry Potter and the Deathly Hallows: Part 1", "Harry%20Potter%20and%20the%20Deathly%20Hallows:%20Part%202"]
-    }
-  ],
-  "the_conjuring":[
-    {"chrono": ["The%20Nun", "Annabelle:%20Creation", "Annabelle", "The%20Conjuring", "The%20Curse%20of%20La%20Llorona",
+    },
+  "the_conjuring":{
+    "chrono": ["The%20Nun", "Annabelle:%20Creation", "Annabelle", "The%20Conjuring", "The%20Curse%20of%20La%20Llorona",
       "The%20Conjuring%202"],
     "release": ["The%20Conjuring", "Annabelle", "The%20Conjuring%202", "Annabelle:%20Creation", "The%20Nun",
       "The%20Curse%20of%20La%20Llorona"]
     }
-  ]
 }
