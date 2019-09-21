@@ -30,7 +30,7 @@ const App = () => (
         <Route
           exact
           path="/sagas/:sagasId"
-          render={(props) => <TimeLines {...props} /> }
+          render={(props) => <TimeLines {...props} />}
         />
         <Route
           component={NoMatchPage}

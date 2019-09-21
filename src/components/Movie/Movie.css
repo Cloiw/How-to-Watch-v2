@@ -1,0 +1,13 @@
+.movie-poster {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.movie-div {
+  color: white;
+  margin: 1%;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bolder;
+  background-color: red;
+}
