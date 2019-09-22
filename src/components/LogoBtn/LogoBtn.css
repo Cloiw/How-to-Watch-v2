@@ -3,9 +3,15 @@
 }
 
 .row-sagas > a {
+  border: 1px solid transparent;
   text-align: center;
-  border: 2px indigo solid;
+
 }
 .row-sagas {
   justify-content: center;
+}
+
+.row-sagas > a:hover {
+  border: 1px outset #FFDC74;
+  border-radius: 8px;
 }

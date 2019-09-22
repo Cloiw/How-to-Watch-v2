@@ -39,3 +39,8 @@ a.nav-link:hover {
 .show > div > .nav-item:hover {
   background-color: black !important;
 }
+
+.navbar-toggler {
+  background-color:  #712B7C;
+  border: 5px solid transparent
+}
