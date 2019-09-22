@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-.btn-start {
+.btn-clasic {
   background-color: rgb(94, 33, 104);
   border-radius: 0;
   color: rgb(243, 196, 56);
@@ -31,7 +31,7 @@ body {
   letter-spacing: 2px;
 }
 
-.btn-start:hover {
+.btn-clasic:hover {
   background-color: rgb(77, 11, 87);
   color: white;
 

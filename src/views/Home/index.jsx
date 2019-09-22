@@ -26,7 +26,7 @@ const Home = () => (
               or by the order in which the story enlapses.
             </p>
             <LinkContainer to="/sagas">
-              <Button href="" variant="start" size="lg" block>
+              <Button href="" variant="clasic" size="lg" block>
                 Start
               </Button>
             </LinkContainer>

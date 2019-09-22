@@ -1,14 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Movie.css';
 
-const Movie = ({ data }) => {
-  console.log(data);
-  return (
-    <div className="movie-div">
-      <p>{data.Title}</p>
-      <img className="movie-poster" src={data.Poster} />
-    </div>
-  );
+const Movie = ({ data }) => (
+  <div className="movie-div">
+    <p>{data.Title}</p>
+    <img className="movie-poster" alt={data.Title} src={data.Poster} />
+  </div>
+);
+
+Movie.propTypes = {
+  data: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.any])).isRequired,
 };
 
 export default Movie;
