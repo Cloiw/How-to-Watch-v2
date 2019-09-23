@@ -1,13 +1,28 @@
 .movie-poster {
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  border-radius: 8px;
+  margin-bottom: 4%;
+  border: solid black 6px;
 }
+
+.movie-title {
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  border-radius: 8px;
+}
+
 .movie-div {
+  display: flex;
+  flex-direction: column;
   color: white;
-  margin: 1%;
+  margin: 8%;
   font-size: 20px;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: bolder;
-  background-color: red;
+  align-items: center;
+  border: 1px indigo outset;
+  border-radius: 20px;
+  background-color: black;
 }

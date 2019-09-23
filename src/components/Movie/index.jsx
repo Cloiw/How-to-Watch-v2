@@ -4,7 +4,7 @@ import './Movie.css';
 
 const Movie = ({ data }) => (
   <div className="movie-div">
-    <p>{data.Title}</p>
+    <p className="movie-title">{data.Title}</p>
     <img className="movie-poster" alt={data.Title} src={data.Poster} />
   </div>
 );
