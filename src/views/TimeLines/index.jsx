@@ -16,7 +16,7 @@ import './TimeLines.css';
 class TimeLines extends React.Component {
   constructor() {
     super();
-    this.state = { movie: [], isLoading: true };
+    this.state = { releaseSaga: [], chronoSaga: [], isLoading: true };
     this.print = this.print.bind(this);
   }
 
@@ -24,19 +24,22 @@ class TimeLines extends React.Component {
     const saga = data[this.props.match.params.sagasId];
     if (saga !== undefined) {
       this.print(saga, 'release');
+      this.print(saga, 'chrono');
     }
   }
 
   async print(array, order) {
     const items = [];
     const movies = array[order];
+    const chronoOrRelease = `${order}Saga`;
+    
     for (let i = 0; i < movies.length; i += 1) {
       const response = await fetch(`http://www.omdbapi.com/?apikey=4bde1662&t=${movies[i]}`);
       const json = await response.json();
       items.push(json);
-      this.setState({ movie: items });
+      this.setState({ [chronoOrRelease]: items });
     }
-    return this.setState({ movie: items, isLoading: false });
+    return this.setState({ [chronoOrRelease]: items, isLoading: false });
   }
 
   render() {
@@ -51,7 +54,15 @@ class TimeLines extends React.Component {
                   <Col md={6}>
 
                     <div>
-                      { this.state.movie.length === 0 ? null : this.state.movie.map((x) => <Movie key={x.Title} data={x} />)}
+                      { this.state.chronoSaga.length === 0 ? null : this.state.chronoSaga.map((x) => <Movie key={x.Title} data={x} />)}
+                      {this.state.isLoading && <span>Loading . . .</span> }
+                    </div>
+
+                  </Col>
+                  <Col md={6}>
+
+                    <div>
+                      { this.state.releaseSaga.length === 0 ? null : this.state.releaseSaga.map((x) => <Movie key={x.Title} data={x} />)}
                       {this.state.isLoading && <span>Loading . . .</span> }
                     </div>
 
