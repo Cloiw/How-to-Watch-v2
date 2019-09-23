@@ -3,7 +3,10 @@
   color: white;
 }
 
-
+span {
+  text-align: center;
+  margin: 8%;
+}
 .timeline::before {
   content: "";
   z-index: -1;
