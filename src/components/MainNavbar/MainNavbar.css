@@ -14,8 +14,6 @@ nav {
 }
 
 .nav-item > .nav-link.active {
-  border: 1px solid #FFDC74;
-  border-radius: 8px;
   color:#FFDC74 !important;
 }
 

@@ -78,7 +78,7 @@ class TimeLines extends React.Component {
                         <h2 className="chrono-title">CHRONOLOGICAL</h2>
                         <div className="timeline">
                           <h4 className="start-title">Start</h4>
-                          { this.state.chronoSaga.length === 0 ? null : this.state.chronoSaga.map((x) => <Movie key={x.Title} data={x} />)}
+                          { this.state.chronoSaga.length === 0 ? null : this.state.chronoSaga.map((x) => <Movie key={x.Title} class="chrono" data={x} />)}
                           {this.state.isLoading && <span>Loading . . .</span> }
                         </div>
                       </Col>
@@ -86,7 +86,7 @@ class TimeLines extends React.Component {
                         <h2 className="release-title">RELEASE</h2>
                         <div className="timeline">
                           <h4 className="start-title">Start</h4>
-                          { this.state.releaseSaga.length === 0 ? null : this.state.releaseSaga.map((x) => <Movie key={x.Title} data={x} />)}
+                          { this.state.releaseSaga.length === 0 ? null : this.state.releaseSaga.map((x) => <Movie key={x.Title} class="release" data={x} />)}
                           {this.state.isLoading && <span>Loading . . .</span> }
                         </div>
                       </Col>

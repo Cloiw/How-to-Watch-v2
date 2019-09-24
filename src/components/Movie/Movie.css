@@ -2,7 +2,7 @@
   width: 150px;
   border-radius: 8px;
   margin-bottom: 4%;
-  border: solid black 6px;
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.185));
 }
 
 .movie-title {
@@ -22,7 +22,15 @@
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: bolder;
   align-items: center;
-  border: 1px indigo outset;
+  border: 1px white outset;
   border-radius: 20px;
   background-color: black;
+}
+
+.chrono {
+  border: 1px #FFDC74 outset;
+}
+
+.release {
+  border: 1px rgb(111, 50, 121) outset;
 }
