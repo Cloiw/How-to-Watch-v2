@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/How-to-Watch-v2/static/css/main.3bbd9c58.chunk.css",
+    "main.js": "/How-to-Watch-v2/static/js/main.715d0f35.chunk.js",
+    "main.js.map": "/How-to-Watch-v2/static/js/main.715d0f35.chunk.js.map",
+    "runtime~main.js": "/How-to-Watch-v2/static/js/runtime~main.8c020c87.js",
+    "runtime~main.js.map": "/How-to-Watch-v2/static/js/runtime~main.8c020c87.js.map",
+    "static/css/2.266e55a5.chunk.css": "/How-to-Watch-v2/static/css/2.266e55a5.chunk.css",
+    "static/js/2.782e7083.chunk.js": "/How-to-Watch-v2/static/js/2.782e7083.chunk.js",
+    "static/js/2.782e7083.chunk.js.map": "/How-to-Watch-v2/static/js/2.782e7083.chunk.js.map",
+    "index.html": "/How-to-Watch-v2/index.html",
+    "precache-manifest.5947fe5d06171b9557afb44df1178730.js": "/How-to-Watch-v2/precache-manifest.5947fe5d06171b9557afb44df1178730.js",
+    "service-worker.js": "/How-to-Watch-v2/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/How-to-Watch-v2/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.3bbd9c58.chunk.css.map": "/How-to-Watch-v2/static/css/main.3bbd9c58.chunk.css.map",
+    "static/media/alien_img.png": "/How-to-Watch-v2/static/media/alien_img.8269800e.png",
+    "static/media/harry_potter_img.png": "/How-to-Watch-v2/static/media/harry_potter_img.c0a8ef32.png",
+    "static/media/img_home.png": "/How-to-Watch-v2/static/media/img_home.f3764bc2.png",
+    "static/media/logo_crop.png": "/How-to-Watch-v2/static/media/logo_crop.15471d47.png",
+    "static/media/lord_of_the_rings_img.png": "/How-to-Watch-v2/static/media/lord_of_the_rings_img.bd3a3860.png",
+    "static/media/marvel_img.png": "/How-to-Watch-v2/static/media/marvel_img.d3daf2ba.png",
+    "static/media/pirates_of_the_caribbean_img.png": "/How-to-Watch-v2/static/media/pirates_of_the_caribbean_img.a6ff7703.png",
+    "static/media/saw_img.png": "/How-to-Watch-v2/static/media/saw_img.e2c9923c.png",
+    "static/media/star_wars_img.png": "/How-to-Watch-v2/static/media/star_wars_img.0d2c093d.png",
+    "static/media/startrek_img.png": "/How-to-Watch-v2/static/media/startrek_img.166e15e1.png",
+    "static/media/the_conjuring_img.png": "/How-to-Watch-v2/static/media/the_conjuring_img.b8d43b61.png",
+    "static/media/xmen_img.png": "/How-to-Watch-v2/static/media/xmen_img.eb54d002.png"
+  }
+}
