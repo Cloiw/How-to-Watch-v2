@@ -6,7 +6,7 @@ import Logo from '../../img/logo_crop.png';
 import './MainNavbar.css';
 
 const MainNavbar = () => (
-  <Navbar collapseOnSelect expand="lg" variant="dark">
+  <Navbar fixed="top" collapseOnSelect expand="lg" variant="dark">
     <LinkContainer to="/">
       <Nav.Link eventKey="1">
         <img

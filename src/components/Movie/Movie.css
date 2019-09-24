@@ -8,9 +8,7 @@
 .movie-title {
   background-color: black;
   text-align: center;
-  padding: 5px;
-  margin: 0;
-  border-radius: 8px;
+  margin: 15px;
 }
 
 .movie-div {

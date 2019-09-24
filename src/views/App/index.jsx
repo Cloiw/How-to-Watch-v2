@@ -13,7 +13,7 @@ import NoMatchPage from '../NoMatchPage';
 
 const App = () => (
 
-  <Router>
+  <Router basename="/How-to-Watch-v2/">
     <ScrollToTop>
       <MainNavbar />
       <Switch>

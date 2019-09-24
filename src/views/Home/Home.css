@@ -34,5 +34,8 @@ body {
 .btn-clasic:hover {
   background-color: rgb(77, 11, 87);
   color: white;
+}
 
+.container-fluid {
+  margin-top: 133px;
 }

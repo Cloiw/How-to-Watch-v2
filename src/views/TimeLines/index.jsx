@@ -20,7 +20,7 @@ class TimeLines extends React.Component {
     this.print = this.print.bind(this);
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const saga = data[this.props.match.params.sagasId];
     if (saga !== undefined) {
       const result = saga.areTheSame;
@@ -42,7 +42,7 @@ class TimeLines extends React.Component {
     const chronoOrRelease = `${order}Saga`;
 
     for (let i = 0; i < movies.length; i += 1) {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=4bde1662&t=${movies[i]}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=4bde1662&t=${movies[i]}`);
       const json = await response.json();
       items.push(json);
       this.setState({ [chronoOrRelease]: items });
