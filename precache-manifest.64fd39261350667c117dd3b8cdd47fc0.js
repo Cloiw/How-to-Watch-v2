@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14dc3ee4bfac9fe2b8d7371922ee5b95",
+    "revision": "c0afd464bee01136a215b973ddc8969f",
     "url": "/How-to-Watch-v2/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/How-to-Watch-v2/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "319456acd7005bfa43e7",
-    "url": "/How-to-Watch-v2/static/css/main.3bbd9c58.chunk.css"
+    "revision": "923c9a7096b2ad8fef2f",
+    "url": "/How-to-Watch-v2/static/css/main.4c5186e1.chunk.css"
   },
   {
     "revision": "edee86c5d2decb6c6ffa",
     "url": "/How-to-Watch-v2/static/js/2.782e7083.chunk.js"
   },
   {
-    "revision": "319456acd7005bfa43e7",
-    "url": "/How-to-Watch-v2/static/js/main.715d0f35.chunk.js"
+    "revision": "923c9a7096b2ad8fef2f",
+    "url": "/How-to-Watch-v2/static/js/main.5f07b501.chunk.js"
   },
   {
     "revision": "4c1614658fde79306a35",
