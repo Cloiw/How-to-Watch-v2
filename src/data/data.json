@@ -3,7 +3,8 @@
     "chrono": ["Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem", "Prometheus", "Alien:%20Covenant",
         "Alien", "Aliens", "Alien³", "Alien:%20Resurrection"],
     "release": ["Alien", "Aliens", "Alien³", "Alien:%20Resurrection", "Alien%20vs%20Predator", "Aliens%20vs.%20Predator:%20Requiem",
-        "Prometheus", "Alien:%20Covenant"]
+        "Prometheus", "Alien:%20Covenant"],
+    "areTheSame": false
   },
   "harry_potter": {
     "chrono": ["Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone", "Harry%20Potter%20and%20the%20Chamber%20of%20Secrets",
@@ -13,7 +14,8 @@
     "release": ["Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone", "Harry%20Potter%20and%20the%20Chamber%20of%20Secrets",
       "Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban", "Harry%20Potter%20and%20the%20Goblet%20of%20Fire", 
       "Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix", "Harry Potter and the Half-Blood Prince", 
-      "Harry Potter and the Deathly Hallows: Part 1", "Harry%20Potter%20and%20the%20Deathly%20Hallows:%20Part%202"]
+      "Harry Potter and the Deathly Hallows: Part 1", "Harry%20Potter%20and%20the%20Deathly%20Hallows:%20Part%202"],
+    "areTheSame": true
     },
   "lord_of_the_rings": {
     "chrono": ["The%20Hobbit:%20An%20Unexpected%20Journey", "The%20Hobbit:%20The%20Desolation%20of%20Smaug",
@@ -22,7 +24,8 @@
     "release": ["The%20Lord%20of%20the%20Rings:%20The%20Fellowship%20of%20the%20Ring",
       "The%20Lord%20of%20the%20Rings:%20The%20Two%20Towers", "The%20Lord%20of%20the%20Rings:%20The%20Return%20of%20the%20King",
       "The%20Hobbit:%20An%20Unexpected%20Journey", "The%20Hobbit:%20The%20Desolation%20of%20Smaug",
-      "The%20Hobbit:%20The%20Battle%20of%20the%20Five%20Armies"]
+      "The%20Hobbit:%20The%20Battle%20of%20the%20Five%20Armies"],
+    "areTheSame": false
   },
   "marvel": {
     "chrono": ["Captain%20America:%20The%20First%20Avenger", "Captain%20Marvel", "Iron%20Man", "The%20Incredible%20Hulk",
@@ -35,7 +38,8 @@
       "The%20Avengers", "Iron%20Man%203", "Thor:%20The%20Dark%20World", "Captain%20America:%20The%20Winter%20Soldier", "Guardians%20of%20The%20Galaxy",
       "Avengers:%20Age%20of%20Ultron", "Ant-Man", "Captain%20America:%20Civil%20War", "Doctor%20Strange", "Guardians%20of%20The%20Galaxy%20Vol.%202",
       "Spider-Man:%20Homecoming", "Thor:%20Ragnarok", "Black%20Panther", "Avengers:%20Infinity%20War", "Ant-Man%20and%20The%20Wasp", 
-      "Captain%20Marvel", "Avengers:%20Endgame"]
+      "Captain%20Marvel", "Avengers:%20Endgame"],
+    "areTheSame": false
   },
   "pirates_of_the_caribbean": {
     "chrono": ["Pirates%20of%20the%20Caribbean:%20The%20Curse%20of%20the%20Black%20Pearl", "Pirates%20of%20the%20Caribbean:%20Dead%20Man%27s%20Chest",
@@ -43,11 +47,13 @@
       "Pirates%20of%20the%20Caribbean:%20Dead%20Men%20Tell%20No%20Tales"],
     "release": ["Pirates%20of%20the%20Caribbean:%20The%20Curse%20of%20the%20Black%20Pearl", "Pirates%20of%20the%20Caribbean:%20Dead%20Man%27s%20Chest",
       "Pirates%20of%20the%20Caribbean:%20At%20World%27s%20End", "Pirates%20of%20the%20Caribbean:%20On%20Stranger%20Tides",
-      "Pirates%20of%20the%20Caribbean:%20Dead%20Men%20Tell%20No%20Tales"]
+      "Pirates%20of%20the%20Caribbean:%20Dead%20Men%20Tell%20No%20Tales"],
+    "areTheSame": true
   },
   "saw": {
     "chrono": ["Saw", "Saw%20II", "Saw%20III", "Saw%20IV", "Saw%20V", "Saw%20VI", "Saw%203D:%20The%20Final%20Chapter", "Jigsaw"],
-    "release": ["Saw", "Saw%20II", "Saw%20III", "Saw%20IV", "Saw%20V", "Saw%20VI", "Saw%203D:%20The%20Final%20Chapter", "Jigsaw"]
+    "release": ["Saw", "Saw%20II", "Saw%20III", "Saw%20IV", "Saw%20V", "Saw%20VI", "Saw%203D:%20The%20Final%20Chapter", "Jigsaw"],
+    "areTheSame": true
   },
   "star_wars": {
     "chrono": ["Star%20Wars:%20Episode%20I%20-%20The%20Phantom%20Menace", "Star%20Wars:%20Episode%20II%20-%20Attack%20of%20the%20Clones",
@@ -58,19 +64,22 @@
       "Star%20Wars:%20Episode%20VI%20-%20Return%20of%20the%20Jedi", "Star%20Wars:%20Episode%20I%20-%20The%20Phantom%20Menace",
       "Star%20Wars:%20Episode%20II%20-%20Attack%20of%20the%20Clones", "Star%20Wars:%20Episode%20III%20-%20Revenge%20of%20the%20Sith",
       "Star%20Wars:%20Episode%20VII%20-%20The%20Force%20Awakens", "Rogue%20One", "Star%20Wars:%20The%20Last%20Jedi",
-      "Solo:%20A%20Star%20Wars%20Story"]
+      "Solo:%20A%20Star%20Wars%20Story"],
+    "areTheSame": false
   },
   "the_conjuring": {
     "chrono": ["The%20Nun", "Annabelle:%20Creation", "Annabelle", "The%20Conjuring", "The%20Curse%20of%20La%20Llorona",
       "The%20Conjuring%202"],
     "release": ["The%20Conjuring", "Annabelle", "The%20Conjuring%202", "Annabelle:%20Creation", "The%20Nun",
-      "The%20Curse%20of%20La%20Llorona"]
+      "The%20Curse%20of%20La%20Llorona"],
+    "areTheSame": false
   },
   "xmen": {
     "chrono": ["X-Men:%20First%20Class", "X-Men%20Origins:%20Wolverine",
       "X-Men", "X2", "X-Men:%20The%20Last%20Stand", "The%20Wolverine", "X-Men:%20Days%20of%20Future%20Past", "X-Men:%20Apocalypse",
       "Deadpool", "Logan", "Deadpool%202"],
     "release":  ["X-Men", "X2", "X-Men:%20The%20Last%20Stand", "X-Men%20Origins:%20Wolverine", "X-Men:%20First%20Class",
-      "The%20Wolverine", "X-Men:%20Days%20of%20Future%20Past", "Deadpool", "X-Men:%20Apocalypse", "Logan", "Deadpool%202"]
+      "The%20Wolverine", "X-Men:%20Days%20of%20Future%20Past", "Deadpool", "X-Men:%20Apocalypse", "Logan", "Deadpool%202"],
+    "areTheSame": false
   }
 }

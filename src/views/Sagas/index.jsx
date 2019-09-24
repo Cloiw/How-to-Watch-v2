@@ -7,7 +7,7 @@ import {
 } from 'react-bootstrap';
 import LogoBtn from '../../components/LogoBtn';
 import data from '../../data/data.json';
-import './Sagas.css'
+import './Sagas.css';
 
 
 const Sagas = () => (
