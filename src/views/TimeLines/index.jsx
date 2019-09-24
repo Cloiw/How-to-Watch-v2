@@ -9,7 +9,7 @@ import {
 import { LinkContainer } from 'react-router-bootstrap';
 import data from '../../data/data.json';
 import NoMatchPage from '../NoMatchPage';
-import Movie from '../../components/Movie/index.jsx';
+import Movie from '../../components/Movie';
 import './TimeLines.css';
 
 

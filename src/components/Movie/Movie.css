@@ -6,7 +6,6 @@
 }
 
 .movie-title {
-  background-color: black;
   text-align: center;
   margin: 15px;
 }
@@ -31,4 +30,18 @@
 
 .release {
   border: 1px rgb(111, 50, 121) outset;
+}
+
+.movie-div:hover {
+  cursor: pointer;
+  background-color: rgb(70, 70, 70);
+}
+.chrono:hover {
+  background-color: rgb(75, 69, 39);
+  cursor: pointer;
+}
+
+.release:hover {
+  background-color: rgb(78, 52, 82);
+  cursor: pointer;
 }

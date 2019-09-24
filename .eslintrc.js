@@ -12,7 +12,8 @@ module.exports = {
         "max-len": "off",
         "import/no-dynamic-require": "off",
         "global-require": "off",
-        "react/destructuring-assignment": "off"
+        "react/destructuring-assignment": "off",
+        "react/jsx-props-no-spreading": "off"
       }
     }
     
