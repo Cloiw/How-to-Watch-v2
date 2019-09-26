@@ -6,10 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from '../Home';
 import Sagas from '../Sagas';
 import TimeLines from '../TimeLines';
+import Request from '../Request';
 import MainNavbar from '../../components/MainNavbar';
 import ScrollToTop from '../../components/ScrollToTop';
 import NoMatchPage from '../NoMatchPage';
-
 
 const App = () => (
 
@@ -31,6 +31,11 @@ const App = () => (
           exact
           path="/sagas/:sagasId"
           render={(props) => <TimeLines {...props} />}
+        />
+        <Route
+          exact
+          path="/request"
+          render={Request}
         />
         <Route
           component={NoMatchPage}
