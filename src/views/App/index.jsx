@@ -35,7 +35,7 @@ const App = () => (
         <Route
           exact
           path="/request"
-          render={Request}
+          component={Request}
         />
         <Route
           component={NoMatchPage}
